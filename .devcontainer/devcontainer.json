@@ -1,0 +1,12 @@
+{
+  "name": "Python & Libraries",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:0-3.6",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [4000],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "extensions": [
+    "ms-python.python"
+  ]
+}
