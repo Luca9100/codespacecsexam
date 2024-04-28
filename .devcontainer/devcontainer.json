@@ -5,8 +5,9 @@
     "terminal.integrated.shell.linux": "/bin/bash"
   },
   "forwardPorts": [4000],
-  "postCreateCommand": "pip install -r requirements.txt",
+  "postCreateCommand": "pip install -r .devcontainer/requirements.txt && pip install .",
   "extensions": [
     "ms-python.python"
   ]
 }
+
